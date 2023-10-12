@@ -216,7 +216,7 @@ function lti_tool_learndash_config_platform($html, $platform)
         '          </td>' . "\n" .
         '        </tr>' . "\n";
 
-    require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'LTI_Tool_LearnDash_Binary_Selector_Courses.php');
+    require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'Binary_Selector_Courses.php');
 
     $courseids = explode(',', $platform->getSetting('__learndash_available_courses'));
     $courses = array();

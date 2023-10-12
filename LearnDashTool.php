@@ -49,7 +49,7 @@ class LTI_Tool_LearnDash extends LTI_Tool_WPTool
         if (!$this->ok) {
             $this->reason = 'Missing custom parameter';
         } else {
-            require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'LTI_Tool_LearnDash_Binary_Selector_Courses.php');
+            require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'Binary_Selector_Courses.php');
             $course_selector = new LTI_Tool_LearnDash_Binary_Selector_Courses();
             $courses = $course_selector->getCourses();
             $this->ok = false;
