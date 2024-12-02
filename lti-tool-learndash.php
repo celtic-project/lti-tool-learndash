@@ -527,6 +527,7 @@ function lti_tool_learndash_update_activity($args)
                 reset($usermeta['lti_tool_user_id']), $lti_tool_learndash_score);
         }
     }
+    return $args;
 }
 
 add_filter('learndash_update_user_activity_args', 'lti_tool_learndash_update_activity', 10, 1);
