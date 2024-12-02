@@ -2,7 +2,7 @@
 /*
   Plugin Name: LTI Connector for LearnDash
   Description: This plugin allows LearnDash to be integrated with on-line courses using the 1EdTech Learning Tools Interoperability (LTI) specification.
-  Version: 1.0.1
+  Version: 1.0.2
   Requires at least: 5.0
   Requires PHP: 7.0
   Author: Stephen P Vickers
