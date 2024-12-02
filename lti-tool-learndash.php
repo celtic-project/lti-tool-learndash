@@ -470,7 +470,9 @@ function lti_tool_learndash_send_outcome($courseuserresults, $platform_id, $user
  * @global array $lti_tool_learndash_progress  LearnDash course progress
  * @global float $lti_tool_learndash_score  User progress
  *
- * @param type $args
+ * @param array $args
+ *
+ * @return array
  */
 function lti_tool_learndash_update_activity($args)
 {
